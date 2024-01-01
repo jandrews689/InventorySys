@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cw7n3bgriqtal"]
+
+[ext_resource type="Script" path="res://Item.gd" id="1_ck5jy"]
+[ext_resource type="Texture2D" uid="uid://cwalf5b3ltlgb" path="res://Design/PNG/ore1.png" id="2_nxb1k"]
+
+[node name="Item" type="Node2D"]
+z_index = 1
+script = ExtResource("1_ck5jy")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+texture = ExtResource("2_nxb1k")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 35.0
+offset_top = 34.0
+offset_right = 55.0
+offset_bottom = 57.0
+text = "99"

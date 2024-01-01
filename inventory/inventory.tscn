@@ -1,0 +1,112 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgk0hsobru62k"]
+
+[ext_resource type="Texture2D" uid="uid://coa33ig8qfab7" path="res://Design/PNG/Overall inventory design.png" id="1_1l3va"]
+[ext_resource type="Script" path="res://inventory/inventory.gd" id="1_fxyjr"]
+[ext_resource type="Script" path="res://inventory/slot.gd" id="3_o1x3j"]
+
+[node name="Inventory" type="Node2D"]
+script = ExtResource("1_fxyjr")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_1l3va")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_left = 35.0
+offset_top = 132.0
+offset_right = 411.0
+offset_bottom = 692.0
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 6
+
+[node name="Panel" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel2" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel3" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel4" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel5" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel6" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel7" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel8" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel9" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel10" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel11" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel12" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel13" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel14" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel15" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel16" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel17" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
+
+[node name="Panel18" type="Panel" parent="GridContainer"]
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+script = ExtResource("3_o1x3j")
